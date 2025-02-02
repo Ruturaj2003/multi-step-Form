@@ -7,7 +7,7 @@ const FormOne = () => {
     <div className="form-container">
       {/* Form Container */}
       <div className="form-card">
-        <p className="text-text text-3xl mb-4">Lorem Ipsum orem Ipsum</p>
+        <p className="text-text text-3xl mb-4">Cane Supplier</p>
         <BreadCrumb></BreadCrumb>
         <Outlet />
       </div>
