@@ -29,7 +29,7 @@ const Billing = () => {
 
         {/* Bank1 Name */}
         <div className="flex flex-col">
-          <label className="text-sm text-text">Bank1 Name</label>
+          <label className="text-sm text-text">Bank 1 Name</label>
           <input
             type="text"
             placeholder="Enter Bank1 Name"
@@ -39,7 +39,7 @@ const Billing = () => {
 
         {/* A/c Number (Bank1) */}
         <div className="flex flex-col">
-          <label className="text-sm text-text">A/c Number (Bank1)</label>
+          <label className="text-sm text-text">A/c Number (Bank 1)</label>
           <input
             type="text"
             placeholder="Enter Account Number"
@@ -49,7 +49,7 @@ const Billing = () => {
 
         {/* IFSC Code (Bank1) */}
         <div className="flex flex-col">
-          <label className="text-sm text-text">IFSC Code (Bank1)</label>
+          <label className="text-sm text-text">IFSC Code (Bank 1)</label>
           <input
             type="text"
             placeholder="Enter IFSC Code"
@@ -59,7 +59,7 @@ const Billing = () => {
 
         {/* Bank2 Name */}
         <div className="flex flex-col">
-          <label className="text-sm text-text">Bank2 Name</label>
+          <label className="text-sm text-text">Bank 2 Name</label>
           <input
             type="text"
             placeholder="Enter Bank2 Name"
@@ -69,7 +69,7 @@ const Billing = () => {
 
         {/* A/c Number (Bank2) */}
         <div className="flex flex-col">
-          <label className="text-sm text-text">A/c Number (Bank2)</label>
+          <label className="text-sm text-text">A/c Number (Bank 2)</label>
           <input
             type="text"
             placeholder="Enter Account Number"
@@ -79,7 +79,7 @@ const Billing = () => {
 
         {/* IFSC Code (Bank2) */}
         <div className="flex flex-col">
-          <label className="text-sm text-text">IFSC Code (Bank2)</label>
+          <label className="text-sm text-text">IFSC Code (Bank 2)</label>
           <input
             type="text"
             placeholder="Enter IFSC Code"
