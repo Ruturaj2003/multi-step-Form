@@ -3,39 +3,46 @@
 @tailwind utilities;
 
 body {
-  background-color: #d4edda; /* You can replace this with the desired color */
-  font-family: Arial, sans-serif; /* Optional: for consistent font styling */
+  background-color: #d4edda; /* Pale Green Background */
+  font-family: Arial, sans-serif; /* Consistent Font */
   margin: 0;
   padding: 0;
+  overflow: hidden; /* Prevent any scrolling */
 }
+
 /* Main container for form */
 .form-container {
   display: flex;
   justify-content: center;
-  align-items: start;
-  min-height: 100vh; /* Vertically center the form */
+  align-items: center; /* Center both horizontally and vertically */
+  height: 100vh; /* Ensures it never exceeds viewport height */
+  max-height: 100vh; /* Strict limit */
   background-color: #d4edda; /* Soft background */
   padding: 20px;
 }
 
+/* Form card */
 .form-card {
   width: 100%;
-  max-width: 900px; /* Maximum width of the card */
-  background-color: #fff; /* White background for the card */
+  max-width: 900px; /* Maximum width */
+  height: 90vh; /* Ensures it stays within the viewport */
+  max-height: 90vh; /* Prevents overflow */
+  background-color: #fff; /* White background */
   border-radius: 12px; /* Rounded corners */
   padding: 30px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation for hover */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Keeps button at the bottom */
+  overflow: hidden; /* Prevents internal scrolling */
 }
 
-.form-card:hover {
-  transform: translateY(-5px); /* Slight raise effect on hover */
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
-}
-
-/* Form container should be responsive */
+/* Responsive Styles */
 @media (max-width: 768px) {
   .form-card {
+    max-width: 95%;
+    height: 95vh;
+    max-height: 95vh;
     padding: 20px;
   }
 }
@@ -44,5 +51,7 @@ body {
   .form-card {
     max-width: 100%;
     padding: 15px;
+    height: 100vh;
+    max-height: 100vh;
   }
 }
