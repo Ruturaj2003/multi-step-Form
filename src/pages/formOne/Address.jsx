@@ -65,10 +65,10 @@ const Address = () => {
         </div>
 
         {/* Navigation Link to Billing */}
-        <div className="mt-auto">
+        <div className="mt-4  flex  justify-center items-center flex-1">
           <Link
-            to="/form-one/billing"
-            className="block text-center py-2 bg-primary text-white rounded-md text-sm font-semibold"
+            to="/form-one/address"
+            className="block text-center w-[280px] py-2 bg-primary text-white rounded-md text-sm font-semibold"
           >
             Save
           </Link>

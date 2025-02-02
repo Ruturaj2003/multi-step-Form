@@ -86,17 +86,16 @@ const Billing = () => {
             className="mt-1 block w-full rounded-md border border-gray-300 p-2 text-sm text-text"
           />
         </div>
-
-        {/* Navigation Link to Home */}
-        <div className="mt-auto col-span-2">
-          <Link
-            to="/"
-            className="block text-center py-2 bg-primary text-white rounded-md text-sm font-semibold"
-          >
-            Save
-          </Link>
-        </div>
       </form>
+      {/* Navigation Link to Home */}
+      <div className="mt-4  flex  justify-center items-center flex-1">
+        <Link
+          to="/form-one/address"
+          className="block text-center w-[280px] py-2 bg-primary text-white rounded-md text-sm font-semibold"
+        >
+          Save
+        </Link>
+      </div>
     </div>
   );
 };
