@@ -13,7 +13,7 @@ const BreadCrumb = () => {
     }`;
 
   return (
-    <div className="h-12 flex justify-start items-center">
+    <div className="h-12 flex justify-start mb-5 items-center">
       <div className="bg-primary rounded-l-xl rounded-r-3xl text-white max-w-[350px] flex-1 px-4 py-2">
         {/* Breadcrumbs */}
         <nav>
