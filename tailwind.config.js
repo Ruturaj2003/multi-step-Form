@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         primary: '#18988B', // Teal Green
         accent: '#A0D995', // Soft Green
-        background: '#d4edda', // Light Mint Green
+        background: '#d4edda', // Pale Green
         text: '#264653', // Deep Forest Green
       },
     },
