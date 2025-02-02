@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #d4edda; /* You can replace this with the desired color */
+  font-family: Arial, sans-serif; /* Optional: for consistent font styling */
+  margin: 0;
+  padding: 0;
+}
