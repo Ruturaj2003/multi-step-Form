@@ -88,10 +88,10 @@ const Billing = () => {
         </div>
       </form>
       {/* Navigation Link to Home */}
-      <div className="mt-4  flex  justify-center items-center flex-1">
+      <div className="mt-4  flex  justify-end items-center flex-1">
         <Link
           to="/form-one/address"
-          className="block text-center w-[280px] py-2 bg-primary text-white rounded-md text-sm font-semibold"
+          className="block text-center w-[180px] py-2 bg-primary text-white rounded-md text-sm font-semibold"
         >
           Save
         </Link>
